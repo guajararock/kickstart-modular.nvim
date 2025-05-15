@@ -1,7 +1,8 @@
 tags
 test.sh
 .luarc.json
+.luacheckcache
 nvim
-
+neovim
+doc/tags
 spell/
-lazy-lock.json
