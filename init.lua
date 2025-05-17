@@ -19,6 +19,9 @@ require 'lazy-bootstrap'
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
+-- [[ Install Bufferline ]]
+require('bufferline').setup {}
+
 -- [[ Set wayland clipboard on ]]
 vim.g.clipboard = 'wl-copy'
 
