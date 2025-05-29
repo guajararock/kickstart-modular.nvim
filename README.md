@@ -4,8 +4,8 @@
 
 *This is a forked from [dam9000/kickstart-modular.nvim](https://github.com/dam9000/kickstart-modular.nvim) fork of [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) that moves from a single file to a multi file configuration.*
 
-### This repository is for testing new configurations and personal testing!!.
-### Please be aware that if you want a stable version, you can always access the original repository.
+### This repository is for testing new configurations and personal testing
+### Please be aware that if you want a stable version, you can always access the original repository
 
 A starting point for Neovim that is:
 

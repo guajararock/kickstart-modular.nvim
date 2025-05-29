@@ -28,6 +28,8 @@ vim.g.clipboard = 'wl-copy'
 -- [[ test lsp config ]]
 vim.lsp.enable {
   'ansiblels',
+  'denols',
+  'marksman',
   'bashls',
   'cssls',
   'html',
