@@ -25,7 +25,7 @@ require('bufferline').setup {}
 -- [[ Set wayland clipboard on ]]
 vim.g.clipboard = 'wl-copy'
 
--- [[ test lsp config ]]
+-- [[ Test lsp config ]]
 vim.lsp.enable {
   'ansiblels',
   'denols',
