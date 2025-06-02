@@ -72,10 +72,16 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
-vim.o.showtabline = 0
+-- The value of this options specifies when the line whit tab pages labels
+-- will be displayed: 0 = never, 1 = only if there are at least two tab pages, 2 = always.
+vim.o.showtabline = 2
 
+-- Enables 24-bit RGB color in the TUI.
 vim.opt.termguicolors = true
 
 vim.o.encoding = 'utf-8'
+
+-- Set completeopt to have a better completion experience
+vim.o.completeopt = 'menuone,noselect'
 
 -- vim: ts=2 sts=2 sw=2 et
